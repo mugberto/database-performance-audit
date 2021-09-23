@@ -1,31 +1,57 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 # curriculum-databases-projects-template
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> Assignment to test the performance of a database. 
 
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+![first-query-before](./images/images/1_animal_count.png)
 
+![first-query-after](./images/2_animal_count.png)
+
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+![second-query-before](./images/1_vet_all.png)
+
+![second-query-after](./images/2_vet_all.png)
+
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
+![third-query-before](./images/1_owner_all.png)
+
+![third-query-after](./images/2_owner_all.png)
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+## Built With
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- SQL
+- Postgres 12
+- VSCode
+- Ubuntu 20.04.3
+
+## Setup
+
+- Get the link of the repository: `https://github.com/mugberto/database-performance-audit.git`
+- Clone it as `https://github.com/mugberto/database-performance-audit.git` on a Terminal
+- Change directory to it by `cd database-performance-audit`
+- Change branch/create local branch to/of `feature-animal` and do a `git pull origin feature-animal`
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤**Makungong Collins Tatang**
+
+- GitHub: [@CollinsTatang1](https://github.com/CollinsTatang)
+- Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
+- LinkedIn: [Makungong Collins](https://www.linkedin.com/in/makungong-collins/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Hubert Mugabo**
+
+- GitHub: [@githubhandle](https://github.com/mugberto)
+- Twitter: [@twitterhandle](https://twitter.com/mugberto)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hubert-mugabo-23144b6a/)
+
 
 ## 🤝 Contributing
 
@@ -39,10 +65,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- [Microverse design team](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378)
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.

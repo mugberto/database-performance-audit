@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# curriculum-databases-projects-template
+# database-performance-audit
 
 > Assignment to test the performance of a database. 
 
 EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
-![first-query-before](./images/images/1_animal_count.png)
+![first-query-before](./images/1_animal_count.png)
 
 ![first-query-after](./images/2_animal_count.png)
 
